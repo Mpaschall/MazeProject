@@ -8,6 +8,7 @@ namespace Maze
 {
     class Square
     {
+        //updated 6/25/17 to make strings print correctly
         //variables for position
         int xPos, yPos, startX, startY, endX, endY;
         string sqstring, type;
@@ -27,25 +28,25 @@ namespace Maze
 
         public string start()
         {
-            sqstring = "...\n.S.\n...";
+            sqstring = "....S....";
             return sqstring;
         }
 
         public string fin()
         {
-            sqstring = "...\n.F.\n...";
+            sqstring = "....F....";
             return sqstring;
         }
 
         public string opSq()
         {
-            sqstring = "...\n...\n...";
+            sqstring = ".........";
             return sqstring;
         }
 
         public string wall()
         {
-            sqstring = "xxx\nxxx\nxxx";
+            sqstring = "xxxxxxxxx";
             return sqstring;
         }
 
